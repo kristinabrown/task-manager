@@ -9,6 +9,10 @@
 <div id="index-container">
   <button type="button" class="btn btn-default" id="task-buttons"><h3 class="text-left" id="task-id"><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
     <a href="/tasks/<%= task.id %>/edit">Edit</a>
+    <form action="/tasks/<%= task.id %>" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="delete"/>
+    </form>
   </button>
 </div>
 <% end %>
