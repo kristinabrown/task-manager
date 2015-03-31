@@ -1,5 +1,11 @@
-<a href="/tasks">Task Index</a>
+<a href="/tasks"><button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-hand-left" aria-hidden="true"> Task Index</a></span>
+</button>
 
-<h1><%= @task.title %></h1>
+<div class="row" id="individual-task">
+<h1 class="text-uppercase"><%= @task.title %></h1>
+</div>
 
-<p><%= @task.description %></p>
+<div class="row" id="task-description"
+<p class="lead"><%= @task.description %></p>
+</div>

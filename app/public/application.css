@@ -1,0 +1,36 @@
+#main-body {
+  background-color: #dadddd
+}
+
+.container {
+  background-color: #5398a5;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#task-buttons {
+  width: 300px;
+}
+
+#task-id {
+  font-family: monospace;
+}
+
+#individual-task {
+  margin: 15px;
+  padding: 15px;
+  color: white;
+  background-color: #688fd4;
+  border-radius: 25px;
+  width: 50%
+}
+
+#task-description {
+  margin: 15px;
+  padding: 7px;
+  font-weight: bold;
+  background-color: #3b5e95;
+  color: white;
+  border-radius: 25px;
+  width: 35%;
+}
