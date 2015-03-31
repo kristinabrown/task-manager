@@ -21,4 +21,7 @@ tasks:
 - id: 7
   title: study
   description: study up on what CRUD is
-total: 7
+- id: 8
+  title: clean
+  description: clean the house
+total: 8

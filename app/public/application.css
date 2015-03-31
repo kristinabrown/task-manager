@@ -1,11 +1,13 @@
 #main-body {
-  background-color: #dadddd
+  background-color: #dadddd;
+  padding-bottom: 70px;
 }
 
 .container {
   background-color: #5398a5;
   padding: 10px;
   border-radius: 25px;
+  margin-top: 25px;
 }
 
 #task-buttons {
