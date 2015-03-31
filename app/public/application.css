@@ -1,21 +1,48 @@
 #main-body {
-  background-color: #dadddd;
   padding-bottom: 70px;
+  background-image: url("img/desk_image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#desk-image {
+  width:
+}
+
+#main-header {
+  background-color: #5398a5;
+  color: white;
+}
+
+#all-tasks-header {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#index-container{
+  background-color: #5398a5;
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 25px;  
 }
 
 .container {
-  background-color: #5398a5;
+  /*background-color: #5398a5;*/
   padding: 10px;
   border-radius: 25px;
   margin-top: 25px;
 }
 
 #task-buttons {
-  width: 300px;
+  border-radius: 25px;
+  width: 200px;
+  
+  /*margin-right: 75px;*/
 }
 
 #task-id {
-  font-family: monospace;
+  /*font-family: monospace;*/
 }
 
 #individual-task {
@@ -35,4 +62,23 @@
   color: white;
   border-radius: 25px;
   width: 35%;
+}
+
+#index-link:link, #new-link:link {
+  transition: all .5s linear 0;
+}
+
+#index-link:hover, #new-link:hover{
+  padding: 5px;
+  background-color: #c6dddc;
+}
+
+#index-button {
+  border: 4px solid #6fa6a4;
+  margin-left: 8px;
+}
+
+#new-button {
+  border: 4px solid #6fa6a4;
+  margin-left: 8px;
 }

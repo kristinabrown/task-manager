@@ -2,10 +2,15 @@
   <span class="glyphicon glyphicon-hand-left" aria-hidden="true"> Main Menu</a></span>
 </button>
 
-<h1 class="jumbotron text-center">All Tasks</h1>
+<h1 class="jumbotron text-center" id="all-tasks-header">All Tasks</h1>
 
 <div class="btn-group-vertical" role="group" aria-label="...">
 <% @tasks.each do |task| %>
-  <button type="button" class="btn btn-default" id="task-buttons"><h3 class="text-left" id="task-id"><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3></button>
+<div id="index-container">
+  <button type="button" class="btn btn-default" id="task-buttons"><h3 class="text-left" id="task-id"><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+    <a href="/tasks/<%= task.id %>/edit">Edit</a>
+  </button>
+</div>
 <% end %>
 </end>
+
